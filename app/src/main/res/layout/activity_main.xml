@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="juma.strathmore.com.volley.MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Android Volley Tutorial !!\n choose a menu option."
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            style="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu"
+            android:textSize="15sp"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/button_get_string"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Get String"/>
+        <Button
+            android:id="@+id/button_get_Json_object"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Get JsonObject "/>
+        <Button
+            android:id="@+id/button_get_Json_array"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Get jsonArray" />
+        <Button
+            android:id="@+id/button_get_image"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text ="Get Image "/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
